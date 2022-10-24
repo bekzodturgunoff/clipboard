@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --strong-cyan: hsl(171, 66%, 44%);
+  --light-blue: hsl(233, 100%, 69%);
+  --primary-font: "Bai Jamjuree", sans-serif;
+  --text-color: hsl(210, 10%, 33%);
+}
+
+body {
+  font-family: var(--primary-font);
+}
+
+p {
+  color: var(--text-color);
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 2rem;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(./images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  gap: 2rem;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  gap: 2rem;
+}
+
+.download {
+  margin-bottom: 5rem;
+  gap: 2rem;
+  display: flex;
+}
+
+.download button {
+  width: 250px;
+  height: 60px;
+  border: none;
+  border-radius: 6rem;
+  color: #fff;
+}
+
+.download-ios {
+  background-color: var(--strong-cyan);
+  box-shadow: var(--strong-cyan) 0px 25px 20px -20px;
+}
+
+.download-mac {
+  background-color: var(--light-blue);
+  box-shadow: var(--light-blue) 0px 25px 20px -20px;
+}
+
+.hero-text-1,
+.hero-text-2,
+.bottom-text-1 {
+  width: 50rem;
+  text-align: center;
+}
+
+.hero-text-1 h1 {
+  font-weight: 600;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info-text {
+  width: 40rem;
+  margin-right: 20rem;
+}
+
+.info-text p {
+  margin-bottom: 5rem;
+}
+
+.mobile {
+  /* Bobur */
+  /* display: flex;
+  justify-content: center;
+  gap: 2rem; */
+  /*Sobit oka*/
+  /* display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem; */
+  /*Murot*/
+  /* display: flex;
+  align-items: center; */
+  /*Islom oka*/
+
+  /* display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: center; */
+  /*Azizbek*/
+  /* display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: center; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-direction: column;
+  text-align: center;
+  width: min-content;
+  margin: auto;
+  margin-top: 5rem;
+}
+
+.mobile img {
+  margin-top: 2rem;
+}
+
+.brands {
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+  margin-top: 7rem;
+}
+
+.brands-comments {
+  display: flex;
+  justify-content: space-between;
+  gap: 7rem;
+  margin: auto;
+}
+
+.brand {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 320px;
+  text-align: center;
+}
+
+.brand img {
+  width: 50px;
+}
+
+.brands-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 7rem;
+  margin: auto;
+}
+
+footer {
+  background-color: hsla(202, 11%, 66%, 0.244);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+.left {
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+  align-items: center;
+}
+
+.left-links {
+  display: flex;
+  gap: 3rem;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 23px;
+}
+
+.right img {
+  width: 30px;
+}
+
+.right {
+  display: flex;
+  gap: 2rem;
+}
